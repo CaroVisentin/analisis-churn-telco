@@ -10,6 +10,7 @@ la empresa para retenerlos?
 
 ## Herramientas
 Python (pandas), SQL (DuckDB), matplotlib y seaborn, en Google Colab.
+📓 [Ver el notebook completo](analisis_churn.ipynb)
 
 ## Hallazgos principales
 - La tasa de churn general es del **26,5%**.
@@ -21,6 +22,7 @@ Python (pandas), SQL (DuckDB), matplotlib y seaborn, en Google Colab.
   15-19% en los demás métodos), y el patrón se repite en los tres tipos
   de contrato. El peor caso: mes a mes + cheque electrónico, con 53,7%.
 
+![Churn por contrato y método de pago](imagenes/churn_contrato_pago.png)
 ![Churn por antigüedad](imagenes/churn_antiguedad.png)
 
 ## Recomendaciones
